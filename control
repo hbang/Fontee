@@ -1,0 +1,10 @@
+Package: ws.hbang.fontee
+Name: Fontee
+Pre-Depends: firmware (>= 5.0)
+Depends: mobilesubstrate
+Version: 1.0.1~beta
+Architecture: iphoneos-arm
+Description: Make your system fonts lighter
+Maintainer: HASHBANG Productions <fontee@hbang.ws>
+Author: HASHBANG Productions <fontee@hbang.ws>
+Section: Tweaks
