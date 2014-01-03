@@ -1,0 +1,10 @@
+{
+    entry = {
+		bundle = fonteeprefs;
+		cell = PSLinkCell;
+		detail = FonteePreferencesListController;
+		icon = icon.png;
+		isController = 1;
+		label = "Fontee";
+    };
+}

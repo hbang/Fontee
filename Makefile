@@ -9,6 +9,8 @@ Fontee_FRAMEWORKS = UIKit
 Fontee_PRIVATE_FRAMEWORKS = GraphicsServices UIFoundation
 
 include $(THEOS_MAKE_PATH)/tweak.mk
+SUBPROJECTS += fonteeprefs
+include $(THEOS_MAKE_PATH)/aggregate.mk
 
 internal-after-install::
 	install.exec "killall -9 backboardd"
