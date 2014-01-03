@@ -1,6 +1,7 @@
 #include <substrate.h>
 #import <GraphicsServices/GraphicsServices.h>
 
+/* iOS 6 and below */
 BOOL forceUltraLight = NO;
 
 static GSFontRef (*HBFTOldGSCreateFontWithName)(const char *fontName, GSFontTraitMask traits, CGFloat fontSize);

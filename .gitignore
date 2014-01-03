@@ -6,3 +6,5 @@ theos
 *~
 *.save
 .DS_Store
+.theos
+*.stamp
